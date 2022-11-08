@@ -19,12 +19,24 @@ Continue get familiar with Houdini. There are a lot of Houdini nodes that I stil
 #### Inspiration/reference:
 - You must have some form of reference material for your final project. Your reference may be a research paper, a blog post, some artwork, a video, another class at Penn, etc.  
 - Include in your design doc links to and images of your reference material.
+![](/reference/1.png)
+Check out this cool [FLUID LANDSCAPE](https://vimeo.com/479847537?embedded=true&source=vimeo_logo&owner=4890881)! I found it when searching for final project idea. And I would like to make it my main reference.
+For more reference pages, I will add them here.
+
 
 #### Specification:
 - Outline the main features of your project.
+* Procedural Fluffy Terrian With Grass
+* Fluid Landscape
+* Tree and Rock Random Placement
+* Shading and Lighting
+
 
 #### Techniques:
 - What are the main technical/algorithmic tools you’ll be using? Give an overview, citing specific papers/articles.
+* FLIP Tank fluid simulation
+* Transfer the particle motion to heightfield
+* L-system
 
 #### Design:
 - How will your program fit together? Make a simple free-body diagram illustrating the pieces.
