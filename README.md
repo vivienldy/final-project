@@ -10,9 +10,11 @@ Start off by forking this repository. In your README, write a design doc to outl
 
 #### Introduction
 - What motivates your project?
+I accidentally saw this wonderful project when searching for final project idea. Considering it would be nice to combine terrian and cool moving effect together, I think it would be nice to recreate the moving terrian. And the rendering seems so nice. It would be nice to know more about material and rendering with Houdini.
 
 #### Goal
 - What do you intend to achieve with this project?
+Continue get familiar with Houdini. There are a lot of Houdini nodes that I still don't know about. By watching the tutorials and finishing this final project. I hope to get to know more functions in Houdini and maybe know more about rendering with Houdini.
 
 #### Inspiration/reference:
 - You must have some form of reference material for your final project. Your reference may be a research paper, a blog post, some artwork, a video, another class at Penn, etc.  
