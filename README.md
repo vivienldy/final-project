@@ -40,17 +40,20 @@ Check out this cool [FLUID LANDSCAPE](https://vimeo.com/479847537?embedded=true&
 
 #### Timeline:
 - Create a week-by-week set of milestones for each person in your group. Make sure you explicitly outline what each group member's duties will be.
-Milestone1 11.16
+
+## Milestone1 11.16
 Dongying Fluid Landscape Feature:
 Use Houdini Flip Tank Fuild create a lava like fluid
 Try to use the particle motion to influence terrian motion. (transfer particle motion into heightfield?)
-Milestone2 11.28
+
+## Milestone2 11.28
 Dongying Fluid Landscape Feature:
 Add detailed noise to the terrian
 Based on the heightfield, do terrian shading
 Procedurally growht grass on the terrian to make the terrian fluffy.
 Create the animation: first grow grass, then terrian motion
-Final 12.5
+
+## Final 12.5
 Integrate tree growth features into the terrian.
 Use terrian color to affect tree and grass color.
 
