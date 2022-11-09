@@ -10,19 +10,17 @@ Start off by forking this repository. In your README, write a design doc to outl
 
 #### Introduction
 - What motivates your project?
-I accidentally saw this wonderful project when searching for final project idea. Considering it would be nice to combine terrian and cool moving effect together, I think it would be nice to recreate the moving terrian. And the rendering seems so nice. It would be nice to know more about material and rendering with Houdini.
+We accidentally saw this wonderful project when searching for final project idea. Considering it would be cool to combine terrian and fluid effect together, we think it would be nice to recreate the fluid landscape. With this project found, we also find some cool effects created by the author and inspired us that we can combine those features together and collaborate to create a cool final result. 
 
 #### Goal
 - What do you intend to achieve with this project?
-Continue get familiar with Houdini. There are a lot of Houdini nodes that I still don't know about. By watching the tutorials and finishing this final project. I hope to get to know more functions in Houdini and maybe know more about rendering with Houdini.
+Continue get familiar with Houdini. There are a lot of Houdini nodes that I still don't know about. By watching the tutorials and finishing this final project. I hope to get to know more nodes functions in Houdini. What's more, the rendering of the secene seems so nice. It would be nice to know more about shading and lighting with Houdini.
 
 #### Inspiration/reference:
 - You must have some form of reference material for your final project. Your reference may be a research paper, a blog post, some artwork, a video, another class at Penn, etc.  
 - Include in your design doc links to and images of your reference material.
 ![](/reference/1.png)
 Check out this cool [FLUID LANDSCAPE](https://vimeo.com/479847537?embedded=true&source=vimeo_logo&owner=4890881)! I found it when searching for final project idea. And I would like to make it my main reference.
-For more reference pages, I will add them here.
-
 
 #### Specification:
 - Outline the main features of your project.
@@ -31,11 +29,10 @@ For more reference pages, I will add them here.
 * Tree and Rock Random Placement
 * Shading and Lighting
 
-
 #### Techniques:
 - What are the main technical/algorithmic tools you’ll be using? Give an overview, citing specific papers/articles.
 * FLIP Tank fluid simulation
-* Transfer the particle motion to heightfield
+* Transfer the particle motion to heightfield, SDF & ray marching maybe?
 * L-system
 
 #### Design:
@@ -43,6 +40,19 @@ For more reference pages, I will add them here.
 
 #### Timeline:
 - Create a week-by-week set of milestones for each person in your group. Make sure you explicitly outline what each group member's duties will be.
+Milestone1 11.16
+Dongying Fluid Landscape Feature:
+Use Houdini Flip Tank Fuild create a lava like fluid
+Try to use the particle motion to influence terrian motion. (transfer particle motion into heightfield?)
+Milestone2 11.28
+Dongying Fluid Landscape Feature:
+Add detailed noise to the terrian
+Based on the heightfield, do terrian shading
+Procedurally growht grass on the terrian to make the terrian fluffy.
+Create the animation: first grow grass, then terrian motion
+Final 12.5
+Integrate tree growth features into the terrian.
+Use terrian color to affect tree and grass color.
 
 Submit your Design doc as usual via pull request against this repository.
 ## Milestone 1: Implementation part 1 (due 11/16)
